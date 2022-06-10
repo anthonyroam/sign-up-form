@@ -1,8 +1,16 @@
 import React from "react";
+import { Layout } from "../containers/Layout";
+import { Description } from "./Description"
+import { FreeTrial } from "./FreeTrial";
+import { Form } from "./Form";
 
 const App = () => {
     return(
-        <div className="bg-red-500">Hola Mundo</div>
+        <Layout>
+            <Description />
+            <FreeTrial />
+            <Form />
+        </Layout>
     );
 }
 
